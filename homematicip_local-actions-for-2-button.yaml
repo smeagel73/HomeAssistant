@@ -33,7 +33,7 @@ blueprint:
       default: []
       selector:
         action: {}
-    action_top_long:
+    action_top_long_release:
       name: Action
       description: Top-Button, Long Press Release
       default: []
@@ -51,13 +51,13 @@ blueprint:
       default: []
       selector:
         action: {}
-    action_top_long:
+    action_bottom_long_start:
       name: Action
       description: Top-Button, Long Press Start
       default: []
       selector:
         action: {}
-    action_top_long:
+    action_bottom_long_release:
       name: Action
       description: Top-Button, Long Press Release
       default: []
@@ -98,10 +98,10 @@ action:
   - conditions:
     - condition: template
       value_template: '{{ trigger.event.data.type  == ''press_long_start'' and trigger.event.data.subtype  == 1 }}'
-    sequence: !input 'action_top_long_start'
+    sequence: !input 'action_bottom_long_start'
   - conditions:
     - condition: template
       value_template: '{{ trigger.event.data.type  == ''press_long_release'' and trigger.event.data.subtype  == 1 }}'
-    sequence: !input 'action_top_release'
+    sequence: !input 'action_bottom_release'
 mode: parallel
 max: 10
