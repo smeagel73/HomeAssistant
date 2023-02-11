@@ -86,7 +86,7 @@ action:
   - conditions:
     - condition: template
       value_template: '{{ trigger.event.data.type  == ''press_long_release'' and trigger.event.data.subtype  == 2 }}'
-    sequence: !input 'action_top_release'
+    sequence: !input 'action_top_long_release'
   - conditions:
     - condition: template
       value_template: '{{ trigger.event.data.type  == ''press_short'' and trigger.event.data.subtype  == 1 }}'
@@ -102,6 +102,6 @@ action:
   - conditions:
     - condition: template
       value_template: '{{ trigger.event.data.type  == ''press_long_release'' and trigger.event.data.subtype  == 1 }}'
-    sequence: !input 'action_bottom_release'
+    sequence: !input 'action_bottom_long_release'
 mode: parallel
 max: 10
