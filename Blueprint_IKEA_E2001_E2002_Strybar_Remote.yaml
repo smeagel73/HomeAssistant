@@ -1,5 +1,5 @@
 blueprint:
-  name: Blueprint for IKEA Remote Controll Styrbar E2001/E2002 (ZHA)
+  name: Blueprint for IKEA Remote Control Styrbar E2001/E2002 (ZHA)
   description: Choose what all four buttons will do.
   domain: automation
   source_url: https://github.com/smeagel73/HomeAssistant/blob/main/Blueprint_IKEA_E2001_E2002_Strybar_Remote.yaml
