@@ -1,7 +1,6 @@
 blueprint:
   name: Blueprint for IKEA ON/OFF Switch E1743 (ZHA)
   description: Control anything using IKEA wireless on/off switch
-
   domain: automation
   source_url: https://github.com/smeagel73/HomeAssistant/blob/main/Blueprint_IKEA_E1743_TRADFRI_Switch.yaml
   input:
