@@ -171,15 +171,15 @@ blueprint:
       default: []
       selector:
         action: {}
-    action_7_long:
-      name: Action
-      description: Button 7, Long Press
-      default: []
-      selector:
-        action: {}
     action_7_long_start:
       name: Action
       description: Button 7, Long Press Start
+      default: []
+      selector:
+        action: {}
+    action_7_long_release:
+      name: Action
+      description: Button 7, Long Press Release
       default: []
       selector:
         action: {}
