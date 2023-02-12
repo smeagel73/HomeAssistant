@@ -1,5 +1,5 @@
 blueprint:
-  name: Blueprintfor IKEA ON/OFF Switch E1743 (ZHA)
+  name: Blueprint for IKEA ON/OFF Switch E1743 (ZHA)
   description: Control anything using IKEA wireless on/off switch
 
   domain: automation
