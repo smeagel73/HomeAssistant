@@ -7,7 +7,7 @@ blueprint:
     Tested with HmIP-RC8. Should work with other device too.
     v2023-02-11
   domain: automation
-  source_url: smeagel73/homematicip_local-actions-for-8-button.yaml
+  source_url: https://github.com/smeagel73/HomeAssistant/blob/main/homematicip_local-actions-for-8-button.yaml
   input:
     remote:
       name: 8-Button Device
