@@ -2,7 +2,7 @@ blueprint:
   name: ZHA - IKEA Styrbar 4 button custom commands
   description: Choose what all four buttons will do.
   domain: automation
-  source_url: https://github.com/smeagel73/HomeAssistant/blob/main/Blueprint_IKEA_E1743_TRADFRI_Switch.yaml
+  source_url: https://github.com/smeagel73/HomeAssistant/blob/main/Blueprint_IKEA_E2001_E2002_Strybar_Remote.yaml
   input:
     remote:
       name: Remote
